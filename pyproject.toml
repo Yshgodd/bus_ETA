@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "bus-eta"
+version = "0.1.0"
+description = ""
+authors = ["Yshgodd <kyun20087@naver.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.111.0"
+loguru = "^0.7.2"
+requests = "^2.32.3"
+haversine = "^2.8.1"
+apscheduler = "^3.10.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
